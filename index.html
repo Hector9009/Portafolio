@@ -8,20 +8,40 @@
     <meta name="keywords" content="portafolio, desarrollo de videojuegos, desarrollo móvil, desarrollo web, aplicaciones de escritorio">
     <title>Portafolio - Héctor Antonio Trejo Herrera</title>
     <link rel="icon" href="imagenes/logo.png">
+    <link rel="stylesheet" href="Css/estilo.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+    <body style="background-color: #002F6C"></body>
     <header>
         <h1>Héctor Antonio Trejo Herrera</h1>
         <p>Licenciado en Tecnologías y Sistemas de la Información</p>
-        <!-- Estilo CSS -->
-        <link rel="stylesheet" href="Css/estilo.css">
     </header>
 
-    <nav>
-        <a href="#about">Acerca de mí</a>
-        <a href="#projects">Proyectos</a>
-        <a href="#cv">Currículum</a>
-        <a href="#contact">Contacto</a>
+    <nav class="navbar navbar-expand-lg" style="background-color: #007bff;">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#about">Acerca de mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#projects">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contact">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#cv">Currículum</a>
+                    </li>
+                    
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
     <section id="about">
@@ -90,7 +110,8 @@
         <h1>Proyectos</h1>
         <img id="project-photo" src="Imagenes/Videojuego.png" alt="Foto del videojuego Eco Adventure">
         <p>
-            A continuación, puedes explorar mi proyecto terminal, un videojuego 2D desarrollado como parte de mis estudios y presentado en el Huatulco Journals:
+            A continuación, puedes explorar mi proyecto terminal, un videojuego 2D desarrollado como parte de mis estudios y presentado en el Huatulco Journals 
+            tambien se considera crear una version para celular y tableta como trabajo a futuro
         </p>
         <p>
             <a href="https://github.com/Hector9009/PT.git" target="_blank">Ver Proyecto en GitHub</a>
@@ -99,29 +120,26 @@
             Este proyecto fue desarrollado utilizando las siguientes tecnologías:
         </p>
         <ul>
-            <li>IDE Unity</li>
-            <li>C#</li>
+            <img id="unity" src="Imagenes/Unity.png" alt="Unity" style="width: 50px; height: auto;">
+            <img id="csharp" src="Imagenes/Csharp.png" alt="C#" style="width: 50px; height: auto;">
+            
         </ul>
         <h2>Otros Proyectos:</h2>
-        <ul>
-            <li>
+        
                 <strong>Photoshop:</strong><br> Creación de la cubierta de un libro.
+                
                 <img id="photoshop-cover" src="Imagenes/Act6_HectorAntonioTrejoHerrera.jpg" alt="Cubierta libro"><br>
-            </li>
-            <li>
-                <strong>Illustrator:</strong><br> Diseño de objetos 3D.
+            
+                <strong>Illustrator:</strong><br> Diseño de objetos 3D.<br>
+
                 <img id="illustrator-3d" src="Imagenes/Act11_Hector-Antonio-Trejo-Herrera.png" alt="Objetos 3D"><br>
-            </li>
-            <li>
-                <strong>Animate:</strong> Animaciones como una pelota rebotando y otra bajando escaleras.
-                <br>
-                <video id="animate-video" controls style="width: 100%; max-width: 500px; margin-top: 10px;"><br>
+           
+                <strong>Animate:</strong><br> Animaciones como una pelota rebotando y otra bajando escaleras.
+
+                <video id="animate-video" controls style="width: 100%; max-width: 500px; margin-top: 10px;">
                     <source src="Videos/Escaleras.mp4" type="video/mp4">
-                    <br>
                     Tu navegador no soporta la reproducción de videos.
                 </video>
-            </li>
-        </ul>
     </section>
 
     <section id="contact">

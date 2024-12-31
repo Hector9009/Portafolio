@@ -1,131 +1,102 @@
-/* Estilos globales */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9; /* Fondo principal */
-    color: #333;
-}
 
-/* Cabecera */
-header {
-    background-color: #444;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2em;
-}
-
-header p {
-    margin: 5px 0 0;
-    font-size: 1.2em;
-}
-
-/* Navegación */
-nav {
-    background-color: #555;
-    text-align: center;
-    padding: 10px 0;
-}
-
-nav a {
-    color: #fff;
-    margin: 0 15px;
-    text-decoration: none;
-    font-size: 1.2em;
-}
-
-nav a:hover {
-    color: #00aced;
-}
-
-/* Secciones */
-section {
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
-    background-color: #EEE5E9; /* Fondo actualizado */
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-section h1 {
-    text-align: center;
-    color: #444;
-    font-size: 1.8em;
-}
-
-section ul {
-    padding: 0;
-    list-style: none;
-}
-
-section ul li {
-    margin: 10px 0;
-    display: flex;
-    align-items: center;
-}
-
-section ul li img {
-    margin-right: 15px;
-}
-
-/* Imágenes con IDs */
-#personal-photo {
-    display: block;
-    margin: 0 auto;
-    width: 150px;
-    height: auto;
-    border-radius: 50%;
-}
-
-#unity,
-#illustrator,
-#photoshop,
-#after,
-#animate,
-#java,
-#mysql,
-#c,
-#csharp,
-#php,
-#python {
-    width: 50px;
-    height: auto;
-    margin-right: 10px;
-}
-
-#project-photo {
-    display: block;
-    margin: 20px auto;
-    width: 250px; /* Aumentado el tamaño */
-    height: auto;
-    clear: both;
-    
-    /* Eliminado el borde redondeado */
-}
-
-#photoshop-cover,
-#illustrator-3d {
-    width: 200px; /* Aumentado el tamaño */
-    height: auto;
-    margin-bottom: 20px; /* Espacio inferior */
-    display: block;
-    margin: 20px auto; /* Centrado con salto de página */
-    clear: both;
-}
+        /* Estilos globales */
+            body {
+                background-color: #0a21b4; /* Puedes reemplazar #f0f0f0 por cualquier otro color que desees */
+            }
 
 
+        /* Cabecera */
+        header {
+            background-color: #444;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
 
-/* Pie de página */
-footer {
-    background-color: #444;
-    color: #fff;
-    text-align: center;
-    padding: 5px; /* Altura del pie reducida */
-    margin-top: 20px; /* Separación del contenido */
-}
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+        }
+
+        /* Secciones */
+        section {
+            margin: 20px auto;
+            max-width: 800px;
+            background-color: #EEE5E9; /* Fondo actualizado */
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        section h1 {
+            text-align: center;
+            color: #444;
+            font-size: 1.8em;
+        }
+
+        section ul {
+            list-style: none;
+        }
+
+        section ul li {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        section ul li img {
+            margin-right: 15px;
+        }
+
+        /* Imágenes con IDs */
+        #personal-photo {
+            display: block;
+            margin: 0 auto;
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        #unity,
+        #illustrator,
+        #photoshop,
+        #after,
+        #animate,
+        #java,
+        #mysql,
+        #c,
+        #csharp,
+        #php,
+        #python {
+            width: 50px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        #project-photo {
+            margin: 20px auto;
+            width: 750px; /* Aumentado el tamaño */
+            height: auto;
+        }
+
+        #photoshop-cover,
+        #illustrator-3d {
+            width: 600px; /* Aumentado el tamaño */
+            height: auto;
+            margin: 20px; /* Centrado con salto de página */
+           
+        }
+        
+
+        /* Pie de página */
+        footer {
+            background-color: #0056b3;
+            color: #fff;
+            text-align: center;
+            padding: 5px; /* Altura del pie reducida */
+            margin-top: 20px; /* Separación del contenido */
+        }
